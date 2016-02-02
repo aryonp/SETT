@@ -1,3 +1,5 @@
+I assume that you already fully installed a linux box.
+
 1. Please install speedtest-cli first on your linux box (I'm using Debian 8)
 
 	apt-get install python-pip
