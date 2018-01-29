@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get install python-pip
+sudo apt install -y python-pip
 pip install speedtest-cli
 mkdir -p /var/SETT/
 cp sett.py /var/SETT/
