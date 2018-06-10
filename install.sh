@@ -1,6 +1,5 @@
 #!/bin/bash
-sudo apt install -y python-pip
-pip install speedtest-cli
+sudo apt install -y speedtest-cli
 mkdir -p /var/SETT/
 curl -fsSL https://raw.githubusercontent.com/aryonp/SETT/master/sett.py > /var/SETT/sett.py
 crontab -l > settcron
